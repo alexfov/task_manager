@@ -1,10 +1,11 @@
-.personal__name, .personal__adress {
-    width: 40%;
-  }
-  
+.personal__name,
+.personal__adress {
+  width: 40%;
+}
+
 .personal-header {
-    background-color: transparent;
-    font-weight: bold;
+  background-color: transparent;
+  font-weight: bold;
 }
 
 .personal__employee_group1 {

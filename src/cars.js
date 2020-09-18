@@ -19,10 +19,9 @@ let cars = [
         id: 5,
         name: "Газель",
     },
-]
+];
 
-let carsInLocalStorage = localStorage.getItem('cars')
-if (carsInLocalStorage)
-    cars = JSON.parse(carsInLocalStorage)
+let carsInLocalStorage = localStorage.getItem("cars");
+if (carsInLocalStorage) cars = JSON.parse(carsInLocalStorage);
 
-export {cars}
+export { cars };

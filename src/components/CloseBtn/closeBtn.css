@@ -1,11 +1,12 @@
-.close-btn{
+.close-btn {
     border: 1px solid #000;
     width: 1em;
     height: 1em;
     position: relative;
 }
 
-.close-btn::before, .close-btn::after{
+.close-btn::before,
+.close-btn::after {
     content: "";
     width: 0.1em;
     height: 1em;
@@ -15,6 +16,6 @@
     left: 0.45em
 }
 
-.close-btn::after{
+.close-btn::after {
     transform: rotateZ(-45deg);
 }

@@ -1,5 +1,5 @@
-let regions = ["N", "S", "Н", "Т"]
-let groups = ["М", "К"]
+let regions = ["N", "S", "Н", "Т"];
+let groups = ["М", "К"];
 
 let personal = [
     {
@@ -182,10 +182,9 @@ let personal = [
         adress: "Гражданский",
         region: regions[0],
     },
-]
+];
 
-let personalInLocalStorage = localStorage.getItem('personal')
-if (personalInLocalStorage)
-    personal = JSON.parse(personalInLocalStorage)
+let personalInLocalStorage = localStorage.getItem("personal");
+if (personalInLocalStorage) personal = JSON.parse(personalInLocalStorage);
 
-export {personal, groups}
+export { personal, groups };
